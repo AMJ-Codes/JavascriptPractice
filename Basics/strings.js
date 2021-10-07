@@ -71,6 +71,14 @@ var anAdjective = "awesome!";
 var ourStr = "freeCodeCamp is ";
 console.log(ourStr += anAdjective);
 
+var letsWrite = "Boy, is it fun to write sometimes, "
+var agreement = "Wouldn\'t you agree, John?"
+console.log(letsWrite += agreement);
+
+var stringwriting = '"I\'m not the biggest fan of writing strings with quotes", said'
+var speaker = ' the baker\'s child. "That\'s why I just bake bread."'
+console.log(stringwriting += speaker)
+
 // String Immutability //
 
 var firstName = "Aaron"; // contents of variable cannot be altered
@@ -98,7 +106,7 @@ var someWord = "Happy";
 var firstLetter = someWord[0];
 console.log(firstLetter); // output 'H'
 
-// Use Bracket Notation to Find the Last Character in a String // output
+// Use Bracket Notation to Find the Last Character in a String // 
 
 var firstName = "Ada";
 var lastLetter = firstName[firstName.length - 1];
@@ -106,7 +114,21 @@ console.log(lastLetter);
 
 var myLastName = "Jefferson";
 var myLastNameLength = myLastName[myLastName.length - 1 ]
-console.log()
+console.log(myLastNameLength)
+
+// Finding the Nth to Last Letter in a String //
+
+// Same principle as finding the last letter in a string, but staggered.
+
+var findTheS = "Pasta";
+var findTheSLength = findTheS[findTheS.length - 3]; // don't forget the .length
+console.log(findTheSLength)
+
+
+
+
+
+
 
 
 
