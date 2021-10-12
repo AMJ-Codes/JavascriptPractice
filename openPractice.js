@@ -1,19 +1,4 @@
-
-// Writing Functions //
-
-function write (a) {
-    return a + 100;
-};
-
-(b) => {
-    return b * 5;
-};
-
-// JavaScript Example //
-
-var x = 5;
-var y = 2;
-let z = x + y;
-document.getElementById("demo").innerHTML = z;
-
-
+var testArr = [1, 2, 3, 4, 5]
+var testArrPop = testArr.length
+  
+console.log(testArrPop)

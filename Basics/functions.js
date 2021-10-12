@@ -54,5 +54,24 @@ console.log(oopsGlobal)
 
 // Lesson 4: Arguments w/ a returned variable // 
 
+// Setup //
 
+var processed = 0;
 
+function processArg(num) {
+  return (num + 3) / 5;
+}
+
+processed = processArg(7) // Output 2
+
+// Lesson 5: 
+
+function nextInLine(arr, item) {
+  return testArr.pop[1] 
+}
+
+// Setup //
+
+var testArr = [1, 2, 3, 4, 5]
+
+console.log(testArr.pop[2])
